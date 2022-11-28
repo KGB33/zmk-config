@@ -46,7 +46,7 @@
 		&mt LGUI A &mt LALT O &mt LCTRL E &mt LSHFT U &kp I			&kp D &mt RSHFT H &mt RCTRL T &mt RALT N &mt RGUI S
 		&kp SEMI   &kp Q      &kp J      &kp K      &kp X			&kp B &kp M      &kp W      &kp V      &kp Z
 
-		                            &lt SYM1 TAB &kp RET 	  			&kp SPC &lt EXT BKSP 
+		                            &lt SYM1 RET &kp BKSP 	  			&mt ESC SPC &lt EXT BKSP 
 		>;
 		};
 
