@@ -11,3 +11,5 @@ jobs:
     with:
       build_matrix_path: corne/build.yaml
       config_path: corne/config
+    env:
+      base_dir: corne
