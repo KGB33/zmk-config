@@ -7,6 +7,8 @@ on:
 
 jobs:
   build:
-  - name: Build Chocofi
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    working-directory: corne
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build Chocofi
+      uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+      working-directory: corne
