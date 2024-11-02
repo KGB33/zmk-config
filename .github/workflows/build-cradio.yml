@@ -7,6 +7,7 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     env:
       working-directory: cradio
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
